@@ -1,0 +1,267 @@
+.btn-info{
+    color: white  !important;
+    background:url('../images/lightblue.png') !important;
+    border-color: transparent !important;
+}
+.slick-arrow{
+    width: 100px !important;
+    z-index: 3 !important;
+}
+.imgCarousel{
+    width:  27rem;
+    height: 27rem;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.imgCarouselNav{
+    width:  6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+.txtWrap{
+    margin: auto;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.btnHover {
+    background-color: #7c90b3;
+    color: white;
+}
+.btnHover:hover{
+    background-color: #9eb8e6 !important;
+    color: white;
+}
+  .form-popup {
+    display: none;
+  }
+#search:hover{
+    background-color: #DCDCDC;
+}
+.imgSameSize{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width: 720px)
+{
+    .marginSpace1rem{
+        margin-left: 1rem;
+    }    
+    .side1{
+        max-width: 75%;
+    }
+    .side2{
+        max-width: 25%;
+    }
+}
+.bold{
+    font-weight: bold;
+}
+.sameHeight{
+    height: 15rem;
+}
+.centertxt{
+    text-align: center;
+}
+.centertxt a {
+    text-decoration: none;
+    color: black;
+}
+.samesize{
+    max-width: 100%;
+    max-height: 50%;
+    margin: auto;
+    display: block;
+}
+.buttonCategories{
+    width: 32%;
+}
+img.alignright { display: block; margin: 0 0 0 auto; }
+
+img.alignleft { display: block; margin: 0 auto 0 0; }
+
+img.aligncenter { display: block; margin: 0 auto; }
+
+a:hover img.hoverImg{opacity:0.6;}
+
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.container {max-width: 1230px;}
+
+@media screen and (max-width: 1199px){
+.container {max-width: 100%;}
+}
+
+.img-center{display:block; margin-left:auto; margin-right:auto;}
+
+.mb-40px{margin-bottom:40px;}
+
+.mb-45px{margin-bottom:45px;}
+
+.text-warning{color:#b09d6f !important;}
+
+a, a:hover, a:focus{color:#a4863e}
+
+a{text-decoration:underline;}
+
+a:hover{text-decoration:none;}
+
+@media screen and (max-width:767px) {
+ .d-inline-flex{
+     display: block !important;
+ }
+ .img-86p-sm{width:86%; display:block; margin-left:auto; margin-right:auto;}
+ 
+ .img-block-sm{display:block; margin-left:auto; margin-right:auto;}
+}
+
+html{font-size:15.5px;}
+
+body{zoom: 75%;line-height:1.6rem; background:url('../images/backgroundocean.png'); font-family: 'Noto Serif JP',游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;}
+
+/* header, nav */
+#header-top{max-width:1160px; margin-left:auto; margin-right:auto; background:#fff; padding:0 15px;}
+
+.text-small{font-size:.875rem;}
+
+.phone-area{text-align:right;}
+
+#header-top ul{list-style:none; padding:0; float:right;}
+
+#header-top ul li{float:left;}
+
+#header-top ul li a{color:inherit; text-decoration:none;}
+
+#header-top ul li a:hover{opacity:.4;}
+
+#logo{width:300px;}
+
+@media screen and (max-width:767px) {
+    #button-excel{
+        width: 50%;
+    }
+ #header-top p{text-align:center;}
+}
+
+.navbar{max-width:1160px; margin-left:auto; margin-right:auto; border-bottom:1px solid #b09d6f}
+
+.navbar a{color:inherit; text-decoration:none;}
+
+.navbar li{border-right:1px solid #b09d6f;}
+
+.navbar-light .navbar-nav .nav-link{opacity:1; color:inherit;}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{opacity:.4;}
+
+.navbar-expand-lg .navbar-nav .nav-link{padding-left:2.2rem; padding-right:2.2rem;}
+
+@media screen and (max-width:767px) {
+ .navbar li{border:none;}
+ 
+ .navbar-expand-lg .navbar-nav .nav-link{text-align:center;}
+}
+
+.navbar-light .navbar-toggler{border:none;}
+
+/* index */
+#main-visual{padding:15px 15px 40px; max-width:1160px; margin-left:auto; margin-right:auto; background:#fff;}
+
+#main-area{padding:0 15px 80px; max-width:1160px; margin-left:auto; margin-right:auto; background:#fff;}
+
+.ttl-deco{color:#fff; background:url('../images/lightblue.png'); padding:.9rem .75rem;}
+
+.ttl-deco i{font-size:.85rem; vertical-align:2px;}
+
+h4.ttl-deco i{font-size:.65rem; vertical-align:1px;}
+
+#news-area ul{padding-left:0;}
+
+#news-area ul li{list-style:none; margin-bottom:12px;}
+
+#news-area ul li .category{margin-left:1rem; margin-right:1rem;}
+
+/* sidebar */
+.side-search{font-family: 'Font Awesome 5 Pro'; background:transparent; border:none;}
+
+#aside ul{padding:0;}
+
+#aside ul li{list-style:none; border-top:1px solid #e4ddcb;}
+
+#aside ul li:last-child{border-bottom:1px solid #e4ddcb;}
+
+#aside ul li i{float:right; color:#b09d6f; margin-top:5px;}
+
+#aside ul li a{color:#333; text-decoration:none; display:block; padding:.5rem;}
+
+#aside ul li a:hover{background:#fffaec;}
+
+#aside h5{padding:.5rem;}
+
+/* footer */
+#footer-area{max-width:1160px; margin-left:auto; margin-right:auto; padding:80px 15px 30px; border-top:double 1px #e4ddcb; font-size:.85rem;}
+
+#footer-area ul, #footer-area ol{padding-left:22px;}
+
+#footer-area ul li, #footer-area ol li{margin-bottom:10px;}
+
+#footer-area h5{padding-bottom:.5rem; border-bottom:2px solid #b09d6f; color:#b09d6f; font-weight:700;}
+
+#footer-area .card {
+    height: 100%;
+}
+
+/* Back to Top */
+#return-to-top {
+    z-index:1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #7c90b3;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    z-index:1200;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: #9eb8e6;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
